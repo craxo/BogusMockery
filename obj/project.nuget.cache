@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "p+j7XxBzclLCkVsra/5myvN4sbSgjSVMZjLEqYjonI7SgRT2WGk+ER9MU5bXRiGLCU+x0jkgMq/UnPTeVQqwAw==",
+  "success": true,
+  "projectFilePath": "/workspaces/BogusMockery/BogusMockery.csproj",
+  "expectedPackageFiles": [
+    "/home/codespace/.nuget/packages/bogus/35.4.0/bogus.35.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
