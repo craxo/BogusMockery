@@ -9,7 +9,7 @@ Console.WriteLine(randomName);
 // We have a EmployeeInfo which we want to fill, lets fill hundred!
 for(int i = 0; i < 100; i++)
 {
-    var bogusEmployee = EmployeeExtensions.GetBogusEmployee();
+    var bogusEmployee = EmployeeInfo.Fake();
     Console.WriteLine("####################################");
     Console.WriteLine($"First Name: {bogusEmployee.FirstName}");
     Console.WriteLine($"Last Name: {bogusEmployee.LastName}");
