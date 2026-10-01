@@ -3,11 +3,11 @@ using Bogus;
 
 // Set some random full name
 var faker = new Faker();
-string randomName = faker.Name.FullName();
+var randomName = faker.Name.FullName();
 Console.WriteLine(randomName);
 
 // We have a EmployeeInfo which we want to fill, lets fill hundred!
-for(int i = 0; i < 100; i++)
+for(var i = 0; i < 100; i++)
 {
     var bogusEmployee = EmployeeInfo.Fake();
     Console.WriteLine("####################################");
